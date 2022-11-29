@@ -1,0 +1,49 @@
+
+body {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(71,9,121,1) 49%, rgba(255,0,185,1) 100%);
+  
+}
+
+.column {
+  float: left;
+  }
+  .left {
+    width: 20%;
+    }
+
+    .middle {
+    width: 30%;
+    }
+    
+    .right {
+    width: 50%;
+    }
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    
+h1 {
+  margin-top: 100px;
+  width: 400px;
+  letter-spacing: 20px;
+    }
+
+p {
+  font-family: Courier, monospace;
+  color: #FDDFA0;
+  margin: 25px 50px 75px; 
+    }
+    
+h1, h2, h3 { 
+  color: #FDDFA0; 
+  margin: 25px 50px 75px; 
+  font-family: Copperplate, Papyrus, fantasy;
+    }
+
+img {
+  object-position: 0px 0%;
+}
